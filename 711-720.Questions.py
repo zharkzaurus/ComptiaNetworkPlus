@@ -88,47 +88,47 @@ D. top-of-rack switching.
 ''')
 answer = input(print("Do you have your answers? yes/no"))
 if answer == "yes":
-  print('''
-Here are the answers along with explanations:
+    print('''
+Here are the answers with explanations:
 
 QUESTION NO: 711
 Answer: C. Transport
-Reason: The UDP checksum is calculated at the transport layer (Layer 4) of the OSI model. If a segment with a bad checksum is detected, it will be discarded at this layer.
+Explanation: The UDP checksum is validated at the Transport layer (Layer 4) of the OSI model. If the checksum is bad, the segment will be discarded at this layer.
 
 QUESTION NO: 712
 Answer: C. Quality of service
-Reason: Quality of service (QoS) mechanisms can prioritize video conferencing traffic over other types of traffic on the network, ensuring that it receives sufficient bandwidth and low latency, thereby improving performance for video conferencing applications.
+Explanation: Quality of Service (QoS) mechanisms can prioritize video conferencing traffic, ensuring it receives sufficient bandwidth and low latency, thereby improving performance for these applications.
 
 QUESTION NO: 713
 Answer: C. Enable port security.
-Reason: Port security allows the network administrator to restrict access to a switch port based on the MAC addresses of the devices connected to it, thereby ensuring that only assigned devices can connect to the switch.
+Explanation: Port security allows the administrator to restrict access to a switch port based on the MAC addresses of the connected devices, ensuring only assigned devices can connect.
 
 QUESTION NO: 714
 Answer: D. Cat 8
-Reason: Cat 8 cables are designed to support bandwidths up to 40Gbps over a long cable run, making them the best choice for the given scenario.
+Explanation: Cat 8 cables are designed to support high bandwidths and are best suited for long cable runs with 40Gbps bandwidth.
 
 QUESTION NO: 715
 Answer: C. Load balancing
-Reason: Load balancing technology distributes network traffic across multiple ISPs, allowing traffic to be sent through two different ISPs simultaneously to increase performance and redundancy.
+Explanation: Load balancing distributes network traffic across multiple ISPs, allowing traffic to be sent through different ISPs simultaneously to increase performance.
 
 QUESTION NO: 716
 Answer: B. One of the devices is misconfigured
-Reason: Late collisions on a half-duplex link are often caused by one of the devices on the link being misconfigured, such as being set to full-duplex mode instead of half-duplex mode.
+Explanation: Late collisions on a half-duplex link often occur due to misconfiguration on one of the devices, such as incorrect duplex settings.
 
 QUESTION NO: 717
 Answer: D. Access point
-Reason: Access points are used to provide wireless connectivity for clients such as 802.11n devices, allowing them to connect to the network wirelessly.
+Explanation: Access points are used to provide wireless connectivity for clients like 802.11n devices, allowing them to connect to the network wirelessly.
 
 QUESTION NO: 718
 Answers: B. Incoming port 80 traffic at the firewall should be forwarded to port 443 on the server.
-               E. A certificate should be installed on the firewall.
-Reason: Forwarding incoming port 80 traffic at the firewall to port 443 on the server allows the firewall to handle HTTPS encryption, as port 443 is the standard port for HTTPS traffic. Additionally, installing a certificate on the firewall enables it to encrypt traffic between itself and clients accessing the web server.
+                 E. A certificate should be installed on the firewall.
+Explanation: Forwarding port 80 traffic to port 443 at the firewall enables HTTPS encryption, and installing a certificate on the firewall ensures secure communication between the firewall and clients accessing the server.
 
 QUESTION NO: 719
 Answer: A. Traffic shaping
-Reason: Traffic shaping can be used to control the bandwidth usage of specific applications or traffic types, ensuring that critical applications like video conferencing receive sufficient bandwidth even when overall available bandwidth is low.
+Explanation: Traffic shaping can control bandwidth usage, ensuring critical applications like video conferencing receive sufficient bandwidth even with low available WAN bandwidth.
 
 QUESTION NO: 720
-Answer: A. software-defined networking.
-Reason: Using application programming interfaces (APIs) to control router deployments aligns with the principles of software-defined networking (SDN), where network functionality is controlled programmatically through software rather than being tightly coupled to hardware configurations.
+Answer: A. Software-defined networking.
+Explanation: Using APIs to control router deployments aligns with the principles of software-defined networking (SDN), where network functionality is controlled programmatically through software.
 ''')

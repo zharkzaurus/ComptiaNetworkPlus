@@ -80,6 +80,10 @@ D. Amplified DoS
 
 QUESTION NO: 710
 Within the realm of network security, Zero Trust:
+ 192.168.22.1    00-13-5d-00-06-23
+ 192.168.22.15   00-15-88-00-58-00
+ 192.168.22.10   00-13-5d-00-06-23
+ 192.168.22.100  00-13-5d-00-06-23
 A. prevents attackers from moving laterally through a system.
 B. allows a server to communicate with outside networks without a firewall.
 C. block malicious software that is too new to be found in virus definitions.
@@ -88,8 +92,6 @@ D. stops infected files from being downloaded via websites.
 answer = input(print("Do you have your answers? yes/no"))
 if answer == "yes":
     print('''
-Here are the answers along with explanations:
-
 QUESTION NO: 701
 Answer: C. Behavior-based IPS
 Reason: A behavior-based IPS learns and adapts to network behavior over time, allowing it to detect and prevent suspicious or malicious activities without relying solely on predefined signatures. This approach is suitable for the administrator's goal of having the IPS learn what to prevent on its own.
